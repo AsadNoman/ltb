@@ -6,11 +6,11 @@ tested only on qemu (qemu-system-x86_64)
 ---
 
 1. install qemu on your linux system.
-*. for ubuntu/debian
+* for ubuntu/debian
 ```
 sudo apt-get install qemu
 ```
-*. for arch based
+* for arch based
 ```
 sudo pacman -S qemu
 ```
