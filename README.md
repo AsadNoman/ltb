@@ -5,7 +5,7 @@ tested only on qemu (qemu-system-x86_64)
 
 ---
 
-*install qemu on your linux system.
+1. install qemu on your linux system.
 for ubuntu/debian
 ```
 sudo apt-get install qemu
@@ -14,15 +14,15 @@ for arch based
 ```
 sudo pacman -S qemu
 ```
-clone this repo.
+2. clone this repo.
 ```
 git clone https://github.com/AsadNoman/ltb.git
 ```
-*go to tlb directory
+3. go to tlb directory
 ```
 cd ltb
 ```
-*run
+4. run
 ```
 qemu-system-x86_64 -kernel boot/bzImage -initrd troot.cpio.gz -append "panic=10  rdinit=/bin/sh"
 ```
